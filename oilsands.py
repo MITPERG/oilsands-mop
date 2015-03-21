@@ -7,6 +7,7 @@ __author__  = "PERG"
 
 import os
 import pandas as pd
+import numpy as np
 
 
 class OilSands(object):
@@ -23,8 +24,8 @@ class Model(object):
 		self.solar_power 	= solar_power
 
 
-	def create_cost_vector(self,params):
-		return True
+	def create_cost_vector(self, bbl_price, reinvestment, turbine_power, panel_power):
+		return np.vectorize(bbl_price, reinvestment, turbine_power, panel_power)
 
 class Simulation(object):
 

@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% set active_page = "home" %}
+{% block head %}  
+  <link rel="stylesheet" href="/static/css/bootstrap-sortable.css">
+  <script src="//code.highcharts.com/4.0.1/highcharts.js"></script>
+  <script src="//code.highcharts.com/4.0.1/highcharts-more.js"></script>
+  <script src="/static/js/highcharts_generators.js"></script>
+  <script src="/static/js/table_generators.js"></script>
+  <script src="/static/js/bootstrap-sortable.js"></script>
+{% endblock %}
+{% block content %}
+  <div class="row">
+    <div class='col-md-12'>
+      <h1 class="text-center">Canadian OilSands EROI Multi-Objective Optimization</h1>
+    </div>
+  </div>
+  <div class="row">
+
+    <div class='col-md-6 col-md-offset-3'>
+      <h3 class="text-center">Hello.</h3>  
+    </div>
+
+  <!-- Credits text--> 
+  <div class="row" style="margin-top: 30px;">
+    <div class="col-md-12 text-center">
+      <a href="/static/data/oilsands.pdf"<button type="button" class="btn btn-lg btn-success" style="width:200px; height:45px">Read Paper</button></a>
+    </div>
+  </div>
+  
+{% endblock %}

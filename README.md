@@ -1,13 +1,15 @@
-# Oilsands Simualtions
+# Oilsands Multi-Objective Optimization
 
-Run on Python 3. 
+## Paper
+---
 
-## Modelling
-Based on backbone model, construct EROI model based on input parameters
+In Progress
 
-## Simulations
+## App
+---
 
+Python application for:
 
-## Optimizations
-
-
+* Modelling
+* Simulating
+* Optimizing

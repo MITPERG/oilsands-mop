@@ -8,4 +8,5 @@
 
 **V2** (TBA)
 
+* Started transition from literature review to research article
 * Added Simon's comments  

@@ -84,6 +84,8 @@ The price for a barrel was above US\$100 in 2013 [2], however, companies were ma
 
 \begin{center}
 \includegraphics[scale=0.65]{oilprices.png}
+% Graph coming from MoneyAM.com
+% Retrieved on August 7, 2015
 \end{center}
 
 \subsection{Motivation}
@@ -147,13 +149,13 @@ Methodology:
 
 We address the Oil Sands EROI problem from the following perpective: \\
 
-{\bf Definition:} Define $B$ the cost of a barrel of oil in the market, $E$ the energy required to develop a barrel of oil, $C$ the cost of producing 1 barrel of oil with a given method, $P$ the profit made by the oil company exploiting the bitumen,  $M$ the maintenance, and $X$ the amount of CO$_2$ released to the atmosphere to produce such barrel. of oil We want to model the following cost vector $v$ as a multi-objective optimization problem:
+{\bf Definition:} Define $B$ the cost of a barrel of oil in the market, $E$ the energy required to develop a barrel of oil (need to clarify what this means), $C$ the cost of producing 1 barrel of oil with a given method, $P$ the profit made by the oil company exploiting the bitumen,  $M$ the maintenance, and $X$ the amount of CO$_2$ released to the atmosphere to produce such barrel. of oil We want to model the following cost vector $v$ as a multi-objective optimization problem:
 
 \begin{displaymath}
 v = \langle B, E, C_B, P,  M, X \rangle
 \end{displaymath}
 
-We specify what we mean by $P$. If different companies have different profits then we talk about another vector of prices, different companies have different prices associated with the landscape they work on, hence $P$ is also a cost vector defined as 
+We specify what we mean by $P$. If different companies have different profits then we talk about another vector of prices, different companies have different prices associated with the geo location region they work on, hence $P$ is also a cost vector defined as 
 \begin{displaymath}
 P = \langle R, \#bbl, T \rangle
 \end{displaymath}
@@ -168,7 +170,7 @@ In this paper, we analyze the EROI problem through different situations to find 
 \begin{displaymath}
 v_{wind+solar}= \langle B, E_{wind} + E_{solar}, C_{wind} + C_{solar}, P_{wind + solar}, X_{wind+solar}\rangle
 \end{displaymath}
- yields better EROI while proving to be a good solutions towards a green future for Alberta. \\
+ yields better EROI while proving to be a good solutions towards a carbon-neutral future for Alberta. \\
 
 In other words, we want the following linear combination:
 
@@ -176,7 +178,7 @@ In other words, we want the following linear combination:
 P_{wind+solar} = \underbrace{\alpha \times E_w \times C_w}_\text{EROI Wind Energy} + \underbrace{ \beta \times E_s \times C_s}_\text{EROI Solar Energy}
 \end{displaymath}
 
-In this paper we show that $\beta \times E_s \times C_s \approx 0$ does not prove to be a good EROI, hence $P \approx \alpha \times E_w \times C_w $\\
+In this paper we show that $\beta \times E_s \times C_s \approx 0$ does not yield a good EROI, hence $P \approx \alpha \times E_w \times C_w $\\
 
 \subsection{Input Parameters}
 
@@ -260,9 +262,9 @@ CO$_2$ evaluation methods are highly political. Need to play with this 2 tables 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{EROI Models}
 
-{\bf CO$_2$ Free solution long term}
+{\bf CO$_2$ Neutral solution long term}
 \begin{itemize}
-\item More progress towards returning the landscape back
+\item More progress towards land reclamation. 
 \end{itemize}
 
 

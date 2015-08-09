@@ -2,25 +2,32 @@
 \author{
           MIT Precision Engineering Research Group (PERG)\\
 	  }
-\date{Summer 2015}
+\date{August 9th, 2015}
 
 \documentclass[12pt]{article}
-
+\usepackage{fancyhdr}
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{amsthm}
 \usepackage{color}
 \usepackage{graphicx}
 \usepackage{enumerate}
+\usepackage{lastpage}
 \setlength{\textwidth}{5.5in}
 \setlength{\textheight}{8.5in}
-\setlength{\voffset}{-1.1in}
+\setlength{\voffset}{-0.5in}
 \setlength{\hoffset}{-0.2in}
 \newcommand{\h}[1]{\colorbox{yellow}{#1}}
-\newcommand{\problem}{\subsection*}
+\renewcommand\headrule{}
+\definecolor{ashgrey}{rgb}{0.7, 0.75, 0.71}
+\pagestyle{fancy}
 
 \begin{document}
-
+\lhead{}
+\chead{\color{ashgrey}{DRAFT 2015-08-09}}
+\rhead{}
+\lfoot{}
+\cfoot{Page \thepage\ of \pageref{LastPage}}
 \maketitle
 
 \begin{abstract}
@@ -49,11 +56,11 @@ Within this context, two important questions arise:
 In this paper, we hope to provide some insights to these questions by evaluating Alberta's Energy Return on Investment (EROI) from a multi-objective optimization approach. \\
 
 %%% SIMON
-\h{SIMON: Quand tu parles pour la première fois de multi-objective optimization
-, ça vaut la peine de rappeler qu'est-ce que c'est exactement Selon le
-journal, on peut supposer déjà connu le concept d'optimization classique
- d'une fonction de plusieurs variables. L'optimization multi-objectif est un 
- domaine plus spécialisé.}
+%\h{SIMON: Quand tu parles pour la première fois de multi-objective optimization
+%, ça vaut la peine de rappeler qu'est-ce que c'est exactement Selon le
+%journal, on peut supposer déjà connu le concept d'optimization classique
+% d'une fonction de plusieurs variables. L'optimization multi-objectif est un 
+% domaine plus spécialisé.}
 %%%
 
 \noindent {\bf Current Supply \& Demand}\\
@@ -61,20 +68,20 @@ journal, on peut supposer déjà connu le concept d'optimization classique
 Current studies show that there is presently more supply than demand for the oil industry. In this paper, we are interested in studying supply versus deman from supply ``need'' point of view. The price of oil has been fluctuating a lot in the past months, yet people basic needs have been evolving more slowly. The price of gas is not considerably lower and we want to address the issue of  supply from a concrete need of the population. We will talk about elastic and inelastic demand. \\
 
 %%% SIMON
-\h{SIMON: 1.1 supply "need" : il faut définit ce que c'est (ou rendre explicite le fait que les phrases qui suivent forment la définition (defined as follows...) ce qui n'est pas le cas je crois.} \\
+%\h{SIMON: 1.1 supply "need" : il faut définit ce que c'est (ou rendre explicite le fait que les phrases qui suivent forment la définition (defined as follows...) ce qui n'est pas le cas je crois.} \\
 %%%
 
 The price for a barrel was above US\$100 in 2013 [2], however, companies were making their highest profits back in 2007 when the price of a barrel of oil was US\$54 [3]. Therefore, industries were making four times as much profit was they were making it today. As the price of a barrel of oil went up, so did all the supplier costs and third party services. Now, the price has significantly dropped, but the cost of suppliers and other vendors have remained the same. \\
 
 %%% SIMON
-\h{SIMON: 1.1 La description que tu fais de l'historique des prix du pétrole pourrait mériter un graphique.}
+%\h{SIMON: 1.1 La description que tu fais de l'historique des prix du pétrole pourrait mériter un graphique.}
 %%%
 
 \subsection{Motivation}
 In this paper we study Alberta's oil sands EROI as a multi-objective optimization problem in order to show that if we were to use renewables as a symbiotic approach for the development of oil sands as describe in [1], then not only we can achieve a carbon-free industry, but also a more profitable industry that can benefit both the government and oil producers. \\
 
 %%% SIMON
-\h{SIMON: carbon-free ou carbon-neutral? Je ne penses pas que tu proposes que les producteurs de pétroles changent de domaine d'affaires abruptement.}
+%\h{SIMON: carbon-free ou carbon-neutral? Je ne penses pas que tu proposes que les producteurs de pétroles changent de domaine d'affaires abruptement.}
 %%%
 
 In this paper, we will focus on: 
@@ -83,7 +90,7 @@ In this paper, we will focus on:
 \item {\bf Modelling} 
 
 %%% SIMON
-\h{SIMON: Modelling : Une question qu'on va toujours te poser en recherche si tu parles de quelque chose comme étant "useful, effective,...", selon quel critère? Comment justifier ce critère? Il faut vraiment bien expliquer le "pourquoi" du modèle. À quelle question tente-t-il de répondre}
+%\h{SIMON: Modelling : Une question qu'on va toujours te poser en recherche si tu parles de quelque chose comme étant "useful, effective,...", selon quel critère? Comment justifier ce critère? Il faut vraiment bien expliquer le "pourquoi" du modèle. À quelle question tente-t-il de répondre}
 %%%
 
 \begin{itemize}
@@ -95,7 +102,7 @@ In this paper, we will focus on:
 \item {\bf Simulating} 
 
 %%% SIMON
-\h{SIMON: Simulating : les scénarios ne se rapportent pas uniquement au modèle, mais plutôt à la réalité que tente de décrire le modèle.}
+%\h{SIMON: Simulating : les scénarios ne se rapportent pas uniquement au modèle, mais plutôt à la réalité que tente de décrire le modèle.}
 %%%
 
 \begin{itemize}
@@ -115,7 +122,7 @@ In this paper, we will focus on:
 The research within the oil sands industry is not a simple and direct Minimizing/Maximizing optimization problem where we are trying to minimize the CO$_2$ amount while maximizing profits, but it is rather a modern complex optimization problem combining solutions from Discrete, Combinatorial, Stochastic, and Multi-Objetive algorithms. \\
 
 %%% SIMON
-\h{SIMON: Quand tu proposes que la recherche dans l'industrie n'est pas un simple problème etc. Premièrement, minimiser CO2 tout en maximisant les profits n'est pas un problème "simple et direct" à mon avis, c'est déjà 2 critères. De plus, laisse tomber le mot "modern". La recherche opérationnelle étant née au cours du 20e siècle, c'est déjà plus que moderne (la révolution française est moderne...). Enfin, pour qualifier la recherche dans l'industrie du point de vue de l'optimisation, il faudrait citer quelque chose (review paper?) qui illustre l'importance et l'impact de ces recherches sur cette industrie.}
+%\h{SIMON: Quand tu proposes que la recherche dans l'industrie n'est pas un simple problème etc. Premièrement, minimiser CO2 tout en maximisant les profits n'est pas un problème "simple et direct" à mon avis, c'est déjà 2 critères. De plus, laisse tomber le mot "modern". La recherche opérationnelle étant née au cours du 20e siècle, c'est déjà plus que moderne (la révolution française est moderne...). Enfin, pour qualifier la recherche dans l'industrie du point de vue de l'optimisation, il faudrait citer quelque chose (review paper?) qui illustre l'importance et l'impact de ces recherches sur cette industrie.}
 %%%
 
 
@@ -124,7 +131,7 @@ In this paper, we discuss the combination of multiple methods to find a better c
 We get DATA $\rightarrow$ We build Models by training extact patterns $\rightarrow$ We filter models by Applying rules $\rightarrow$ Visualize One Configuration Map $\rightarrow$ we evaluate this configuration map.  $\rightarrow$ we propose a set of solutions within this configuration map. 
 
 %%% SIMON
-\h{SIMON: Ta séquence DATA -> ... profiterait d'être illustrée schématiquement.}
+%\h{SIMON: Ta séquence DATA -> ... profiterait d'être illustrée schématiquement.}
 %%%
 
 \subsection{Methods}
@@ -134,20 +141,20 @@ Methodology:
 \item First Approach: Brute-Force. Find out how much time it takes for the computer to find a solution. If we need to change a specific variable (say the price of oil again), then it will take again a certain amount of time to solve. 
 
 %%% SIMON
-\h{SIMON: Dès que tu as des variables continues pour représenter , eg., le positionnement d'une turbine sur une carte géographique, ton brute-force va être aussi long que ta grille discrétisant le continu. Plus réalistiquement, tu vas établir un budget de temps (genre 2 heures de run time) et voir si tu peux même aboutir sous ce temps avec brute-force.}
+%\h{SIMON: Dès que tu as des variables continues pour représenter , eg., le positionnement d'une turbine sur une carte géographique, ton brute-force va être aussi long que ta grille discrétisant le continu. Plus réalistiquement, tu vas établir un budget de temps (genre 2 heures de run time) et voir si tu peux même aboutir sous ce temps avec brute-force.}
 %%%
 
 \item Second Approach: try to cut down the time by a more global approach: 1) Branch and Bound 2) Tabu Search . We will test how this evolves and how different scenarios produce different solutions through these methods. 
 \item Third Approach: test in parallel all Meta-Heuristics: 1) VEGA 2) TAPAS 3) ETC. 
 
 %%% SIMON
-\h{SIMON: Eventuellement, tu devras fournir des références sur des choses comme taboo search, et l'expliquer (branch and bound est assez de base et classique à mon avis pour ne pas avoir à donner une référence, mais je me trompe peut-être là-dessus...)}
+%\h{SIMON: Eventuellement, tu devras fournir des références sur des choses comme taboo search, et l'expliquer (branch and bound est assez de base et classique à mon avis pour ne pas avoir à donner une référence, mais je me trompe peut-être là-dessus...)}
 %%%
 
 \item Final Approach: take approx solutions to approx problems. 
 
 %%% SIMON
-\h{Peut-être que tu n'as pas encore développé les aspect "approximation", mais si c'est le cas donne plus de détails.}
+%\h{Peut-être que tu n'as pas encore développé les aspect "approximation", mais si c'est le cas donne plus de détails.}
 %%%
 
 \end{enumerate}

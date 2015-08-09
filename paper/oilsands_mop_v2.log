@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.7.12)  8 AUG 2015 21:22
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.7.12)  9 AUG 2015 18:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -255,6 +255,11 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 31.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
+Overfull \hbox (17.98926pt too wide) in paragraph at lines 34--35
+\OT1/cmr/m/n/10.95 Op-ti-miza-tion (SOO) and Multi-Objective Op-ti-miza-tion (M
+OP) ap-proaches. 
+ []
+
 (./oilsands_mop_v2.toc [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}])
@@ -268,155 +273,166 @@ Underfull \hbox (badness 10000) in paragraph at lines 46--47
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 48--49
+Underfull \hbox (badness 10000) in paragraph at lines 54--55
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 56--57
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 66--67
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 68--69
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 74--75
-
- []
-
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 59.
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 59.
 
 Underfull \hbox (badness 10000) in paragraph at lines 81--82
 
  []
 
 [3]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 97.
- (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 97.
+Underfull \hbox (badness 10000) in paragraph at lines 83--84
+
+ []
+
+<oilprices.png, id=17, 607.26875pt x 461.725pt>
+File: oilprices.png Graphic file (type png)
+ <use oilprices.png>
+Package pdftex.def Info: oilprices.png used on input line 86.
+(pdftex.def)             Requested size: 394.72002pt x 300.11769pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--91
+
+ []
+
+[4 <./oilprices.png>]
+Overfull \hbox (19.95374pt too wide) in paragraph at lines 122--123
+[]\OT1/cmr/m/n/12 The re-search within the oil sands in-dus-try is a com-plex M
+in-i-miz-ing/Maximizing
+ []
+
+
+Overfull \hbox (10.47977pt too wide) in paragraph at lines 122--123
+\OT1/cmr/m/n/12 max-i-miz-ing prof-its. It com-bines so-lu-tions from Dis-crete
+, Com-bi-na-to-rial, Stochas-
+ []
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 122--123
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 129--130
+Underfull \hbox (badness 10000) in paragraph at lines 124--125
 
  []
 
-[4]
-Overfull \hbox (1.92627pt too wide) in paragraph at lines 148--149
+[5] <dataflow.png, id=25, 273.02pt x 383.4325pt>
+File: dataflow.png Graphic file (type png)
+ <use dataflow.png>
+Package pdftex.def Info: dataflow.png used on input line 127.
+(pdftex.def)             Requested size: 204.7645pt x 287.57367pt.
+
+Overfull \hbox (1.92627pt too wide) in paragraph at lines 136--137
 []\OT1/cmr/m/n/12 Third Ap-proach: test in par-al-lel all Meta-Heuristics: 1) V
 EGA 2) TAPAS
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 169--170
+Underfull \hbox (badness 10000) in paragraph at lines 148--149
 
  []
 
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 183--184
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 185--186
+[6 <./dataflow.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 162--163
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 191--193
+Underfull \hbox (badness 10000) in paragraph at lines 164--165
+
+ []
+
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 170--172
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 200--201
-
- []
-
-[6] [7]
-Underfull \hbox (badness 10000) in paragraph at lines 249--250
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 251--252
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 254--256
+Underfull \hbox (badness 10000) in paragraph at lines 179--180
 
  []
 
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 263--264
+Underfull \hbox (badness 10000) in paragraph at lines 228--229
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 266--268
+Underfull \hbox (badness 10000) in paragraph at lines 230--231
 
  []
 
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 299--300
+Underfull \hbox (badness 10000) in paragraph at lines 233--235
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 303--304
+Underfull \hbox (badness 10000) in paragraph at lines 242--243
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 305--306
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 307--308
+Underfull \hbox (badness 10000) in paragraph at lines 245--247
 
  []
 
 [10]
-Underfull \hbox (badness 10000) in paragraph at lines 319--320
+Underfull \hbox (badness 10000) in paragraph at lines 278--279
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 321--322
+Underfull \hbox (badness 10000) in paragraph at lines 282--283
 
  []
 
 
-Overfull \hbox (64.9661pt too wide) in paragraph at lines 323--324
+Underfull \hbox (badness 10000) in paragraph at lines 284--285
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 286--287
+
+ []
+
+[11] [12]
+Underfull \hbox (badness 10000) in paragraph at lines 298--299
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 300--301
+
+ []
+
+
+Overfull \hbox (64.9661pt too wide) in paragraph at lines 302--303
 \OT1/cmr/m/it/12 They Don't Cut Costs\OT1/cmr/m/n/12 . Re-trieved on Febru-ary 
 19, 2015 from http://www.huffingtonpost.ca/ 
  []
 
 
 AED: lastpage setting LastPage
-[11] (./oilsands_mop_v2.aux) ) 
+[13] (./oilsands_mop_v2.aux) ) 
 Here is how much of TeX's memory you used:
- 2708 strings out of 493304
- 35636 string characters out of 6139871
- 101277 words of memory out of 5000000
- 6115 multiletter control sequences out of 15000+600000
+ 2719 strings out of 493304
+ 35803 string characters out of 6139871
+ 100277 words of memory out of 5000000
+ 6123 multiletter control sequences out of 15000+600000
  14017 words of font info for 53 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 38i,12n,43p,659b,271s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,12n,43p,668b,268s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
@@ -428,10 +444,10 @@ live/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/font
 s/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on oilsands_mop_v2.pdf (11 pages, 152591 bytes).
+Output written on oilsands_mop_v2.pdf (13 pages, 188672 bytes).
 PDF statistics:
- 84 PDF objects out of 1000 (max. 8388607)
- 59 compressed objects within 1 object stream
+ 95 PDF objects out of 1000 (max. 8388607)
+ 65 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

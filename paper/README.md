@@ -1,8 +1,12 @@
-# Paper 2
+# Research Paper
 
-Steps:
-1) Find people how have worked on similar problems (or sub-problems) that
-are related to mine and see how they went about to solve it. To make sure
-I am not forgetting.  
-2) If no one has done it, then propose a solution and people will come
-to propose different approaches that are going to be fasters. 
+**V1** (2015-07-06)
+
+* Improved paper structure (sections)
+* Fixed typos and layout formatting
+* Basic QA of all sections
+
+**V2** (TBA)
+
+* Started transition from literature review to research article
+* Added Simon's comments  
